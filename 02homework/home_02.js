@@ -10,13 +10,32 @@ let telefon = [
     "iPhone8",
     "iPhone5s",
 ];
-console.log(telefon);
+console.log(0);
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+console.log(6);
+console.log(7);
+console.log(8);
+console.log(9);
+
+let book1 = {title:'Encyclopedia',pageCount:'1000', genre:'educational'}
+let book2 = {title:'Forrest Gump',pageCount:'500', genre:'novel'}
+let book3 = {title:'Piotr Konaszewicz-Sahajdaczny',pageCount:'100', genre:'autobiography'}
+
+
+console.log(book1);
+console.log(book2);
+console.log(book3);
+
 
 let bookData = {
     title: "encyclopedia",
     pages: 1000,
-    genre: "ducational",
-    author: [
+    genre: "educational",
+    authors: [
         {
             name: "Petro",
             age: 40,
@@ -26,10 +45,10 @@ let bookData = {
             age: 50,
         },
     ],
-    title: "encyclopedia",
-    pages: 1000,
-    genre: "ducational",
-    author: [
+    title: "Forrest Gump",
+    pages: 500,
+    genre: "'novel'",
+    authors: [
         {
             name: "Petro",
             age: 40,
@@ -39,9 +58,7 @@ let bookData = {
             age: 50,
         },
     ],
-
 };
-console.log(bookData);
 
 const users = [
     {name: "Alice", username: "alice01", password: "passAlice"},
@@ -56,8 +73,17 @@ const users = [
     {name: "Jack", username: "jack10", password: "passJack"},
 ];
 
-console.log(users[0].name)
-console.log(users)
+console.log(users[0].password);
+console.log(users[1].password);
+console.log(users[2].password);
+console.log(users[3].password);
+console.log(users[4].password);
+console.log(users[5].password);
+console.log(users[6].password);
+console.log(users[7].password);
+console.log(users[8].password);
+console.log(users[9].password);
+
 
 let temperatures = [
     [15, 22, 18],
@@ -69,4 +95,4 @@ let temperatures = [
     [16, 23, 19]
 ];
 
-console.log(temperatures[0], [3, [4]])
+console.log(temperatures[0], [3, [4]]);
