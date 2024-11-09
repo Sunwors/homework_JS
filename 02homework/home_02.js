@@ -21,9 +21,9 @@ console.log(7);
 console.log(8);
 console.log(9);
 
-let book1 = {title:'Encyclopedia',pageCount:'1000', genre:'educational'}
-let book2 = {title:'Forrest Gump',pageCount:'500', genre:'novel'}
-let book3 = {title:'Piotr Konaszewicz-Sahajdaczny',pageCount:'100', genre:'autobiography'}
+let book1 = {title: 'Encyclopedia', pageCount: '1000', genre: 'educational'}
+let book2 = {title: 'Forrest Gump', pageCount: '500', genre: 'novel'}
+let book3 = {title: 'Piotr Konaszewicz-Sahajdaczny', pageCount: '100', genre: 'autobiography'}
 
 
 console.log(book1);
@@ -86,13 +86,50 @@ console.log(users[9].password);
 
 
 let temperatures = [
-    [15, 22, 18],
-    [16, 23, 19],
-    [14, 21, 17],
-    [15, 22, 18],
-    [17, 24, 20],
-    [18, 25, 21],
-    [16, 23, 19]
-];
+        {
+            day: "Monday",
+            morning: 15,
+            afternoon: 22,
+            evening: 18,
+        },
+        {
+            day: "Tuesday",
+            morning: 16,
+            afternoon: 23,
+            evening: 19,
+        },
+    {
+        day: "Wednesday",
+        morning: 14,
+        afternoon: 21,
+        evening: 17,
+    },
+    {
+        day: "Thursday",
+        morning: 15,
+        afternoon: 22,
+        evening: 18,
+    },
+    {
+        day: "Friday",
+        morning: 17,
+        afternoon: 24,
+        evening: 20,
+    },
+    {
+        day: "Saturday",
+        morning: 18,
+        afternoon: 25,
+        evening: 21,
+    },
+    {
+        day: "Sunday",
+        morning: 16,
+        afternoon: 23,
+        evening: 19,
+    },
+    ];
 
-console.log(temperatures[0], [3, [4]]);
+console.log("Monday", temperatures[0].afternoon);
+console.log("Friday", temperatures[4].evening);
+console.log("Sunday", temperatures[6].morning);
